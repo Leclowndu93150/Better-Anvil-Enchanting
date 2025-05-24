@@ -1,5 +1,7 @@
 package com.leclowndu93150.better_anvil_enchanting.platform.services;
 
+import java.nio.file.Path;
+
 public interface IPlatformHelper {
 
     /**
@@ -32,4 +34,11 @@ public interface IPlatformHelper {
     default String getEnvironmentName() {
         return isDevelopmentEnvironment() ? "development" : "production";
     }
+
+    /**
+     * Gets the configuration directory path for this platform.
+     *
+     * @return The path to the config directory.
+     */
+    Path getConfigDirectory();
 }
