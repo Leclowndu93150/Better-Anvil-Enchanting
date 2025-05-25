@@ -1,0 +1,7 @@
+{
+  "tooltip.better_anvil.repair_cost": "Repair Cost: %s",
+  "tooltip.better_anvil.next_repair_cost": "Next Repair Cost: %s",
+  "tooltip.better_anvil.over_repaired": "Over-Repaired: +%s durability",
+  "tooltip.better_anvil.unlimited_enchant": "Unlimited Enchantment Levels",
+  "container.repair.cost.modified": "Enchantment Cost: %s levels (Modified)"
+}
